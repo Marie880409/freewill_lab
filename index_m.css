@@ -1,0 +1,174 @@
+@media all and (max-width:800px) {
+    * { margin: 0px; padding:0px;}
+
+
+    body{ 
+        font-size: 10pt;
+        color: #333;
+        background: rgb(208, 204, 199);
+        overflow-x: hidden;
+    }
+    .mySwiper {
+        display: none;
+      
+    }
+
+    /*---- 시작------*/
+
+
+    .top_header_wrap {
+        position: relative;
+        clear: both;
+        display: flex;
+        width:100%;
+        height: 200px;
+        justify-content: center;
+        align-items: center;  
+    }
+    .top_header_inner {
+       display: none;
+    }
+    .logo_wrap {
+        position: absolute;
+        display: flex;
+        flex-flow: row wrap;
+        width: 300px;
+        height: 150px;
+        /* background: pink; */
+    }
+        .logo_m {
+            position:relative;
+            display: flex;
+            width: 280px;
+            height: 110px;
+            margin: 0 auto;
+            /* background: yellow; */
+            filter: invert(1);
+        }
+        .logo_title {
+            position: relative;
+            display: flex;
+            width: 300px;
+            height: 40px;
+            font-weight: bold;
+            font-size: 12pt;
+            line-height: 40px;
+            /* color: pink; */
+            justify-content: center;
+            
+        }
+    /*-------------------- 메인----------------------*/
+    .mobile_wrap {
+        position: relative;
+        display: flex;
+        flex-flow: row wrap;
+        width: 100%;
+        /* height: 2000px; */
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+        top:0px;
+        background: rgb(208, 204, 199);
+    }
+    .mobile_contatin_01 {
+        position: relative;
+        display: flex;
+        flex-flow: row wrap;
+        width: 401px;
+        height: 401px;
+        margin: 0 auto;
+        top:50px;
+        padding: 0;  
+        
+        background: url(./img/tile.png) repeat 0 0 / 80px;
+    }
+        .m_main_01 {
+            position: absolute;
+            display: flex;
+            width: 75px;
+            height: 75px;
+            top:3px;
+            left: 3px;
+            border-radius: 100%;
+            background: rgb(229, 86, 86);
+        }
+       .m_main_02 {
+        position: absolute;
+        display: flex;
+        width: 400px;
+        height: 400px;
+        top:12px;
+        left:5px;
+       }
+    .mobile_contatin_02 {
+        position: relative;
+        display:flex;
+        flex-flow: row wrap;
+        width: 400px;
+        height: 60px;
+        margin: 0 auto;
+        top:90px;
+        
+        justify-content: center;
+        align-items: center;
+        /* background: yellow; */
+    }
+        .mobile_contatin_02 > h2 {
+            display: flex;
+            width: 400px;
+            height: 40px;
+            justify-content: center;
+            line-height: 40px;
+            /* background: pink;
+            */
+        }
+        .mobile_contatin_02 > p {
+            display: flex;
+            width: 400px;
+            height: 20px;
+            justify-content: center;
+            line-height: 20px;
+            background: #fff;
+            color:rgb(229, 86, 86);
+        }
+    .mobile_contatin_03 {
+        position: relative;
+        display: flex;
+        flex-flow: row wrap;
+        width: 400px;
+        height: 1400px;
+        justify-content: center;
+        font-family: "Kanit", sans-serif;
+        /* background: white; */
+        top:150px;
+    }
+        .m_frame {
+            position: relative;
+            display: flex;
+            flex-flow: row wrap;
+            width: 380px;
+            height: 280px;
+            border-radius: 20px;
+            text-align: center;
+            justify-content: center;
+            background: rgb(0, 0, 0);
+        }
+            .m_frame > img {
+                position: relative;
+                display: flex;
+                width: 380px;
+                height: 230px;
+                border-radius: 20px 20px 0 0;
+            }
+            .m_frame > p {
+                position: relative;
+                display: flex;
+                width:380px;
+                height: 50px;
+                color: white;
+                line-height: 50px;
+                align-self: center;
+                justify-content: center;
+                font-size: 12pt;
+            }
+}

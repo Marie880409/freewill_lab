@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ㅈㅇㅇㅈ</title>
+
+
+   
+   
+    
+
+    <style>
+       html,body {
+        position: relative;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-size: 10pt;
+        text-decoration: none;
+        font-family: "Noto Sans KR", sans-serif;
+    }
+
+        ul li {
+            list-style: none;
+        }
+        a {
+            text-decoration: none;
+        }
+        
+        
+
+    
+      </style>
+
+      
+
+    <!-------noto 폰트 --------->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nova+Cut&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap" rel="stylesheet">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Noto+Sans+KR:wght@100..900&display=swap" rel="stylesheet">
+
+    <!------- 제이쿼리 --------->
+    
+    <script src="https://code.jquery.com/jquery-3.7.1.slim.min.js" integrity="sha256-kmHvs0B+OpCW5GVHUNjv9rOmY0IvSIRcf7zGUDTDQM8=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.slim.js" integrity="sha256-UgvvN8vBkgO0luPSUl2s8TIlOSYRoGFAX4jlCIm9Adc=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    
+   
+    <script src="./js/dragon.js"></script>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./index.css"></style>
+    <link rel="stylesheet" href="./index_m.css"></style>
+   
+</head>
+
+
+<body>
+  <!--------------상단메뉴---------------->
+  <div class="top_header_wrap"> <a name="top"></a>
+    <div class="logo_wrap">
+      <img class="logo_m" src="./img/freewill.png">
+      <p class="logo_title"> 이인혜 포트폴리오 + 자유의지 + </p>
+    </div>
+    <ul class="top_header_inner">
+        <a href="./index.html"> <li>MAIN</li> </a>
+        <a href="./me.html">
+          <li class="me_hover"> M, E
+           <li> <div class="me_line">&nbsp;</div></li>
+        </li>
+        </a>
+        <a href="./works.html">
+          <li> WORKS </li>
+        </a>
+        <a href="./contact.html">
+          <li> CONTACT </li>
+        </a>
+    </ul>  
+  </div>
+
+
+
+   <!----------------------------*모바일*----------------------------------->
+   <div class="mobile_wrap">
+    <!-----------상단메뉴------------->
+    <div class="mobile_contatin_01">
+      <div class="m_main_01"></div>
+      <div class="m_main_02">
+        <img src="./img/mobile.png">
+      </div>
+    </div>
+    <div class="mobile_contatin_02">
+      <h2> 포트폴리오는 PC 화면에 최적화 되어있습니다.</h2>
+      <p> 전체 이미지는 PC 화면 1920 x 1080 화면에서 확인부탁드립니다 :) </p>
+    </div>
+    <div class="mobile_contatin_03">
+      <h1>+ PORTFOLIO SUMMARY +</h1>
+      <div class="m_frame">
+        <img src="./img/380x230_1.jpg">
+        <p> 상세페이지 </p>
+      </div>
+      <div class="m_frame">
+        <img src="./img/380x230_2.jpg">
+        <p> FIGMA </p>
+      </div>
+      <div class="m_frame">
+        <img src="./img/380x230_3.jpg">
+        <p> FRONTEND </p>
+      </div>
+      <div class="m_frame">
+        <img src="./img/380x230_4.jpg">
+        <p> ETC </p>
+      </div>
+    </div>
+  </div>
+  <!----------------------------*모바일*----------------------------------->
+
+
+  <!--------------스와이퍼---------------->
+    <swiper-container class="mySwiper" pagination class="swiper-pagination" pagination-clickable="true" direction="vertical"
+    space-between="30" mousewheel="true">
+        <swiper-slide class="sldie_01">
+          <div class="slide_tile"> we </div>
+          <div class="screen"> 1920 x 1080 해상도에 최적화<br>되어 있습니다. </div>
+          <div class="slide_tile_02">move</div>
+          <img class="dragon_eye" src="./img/background_1_3.jpg">
+          <img src="./img/background_1_2.jpg">
+        </swiper-slide>
+    <!--------------슬라이드 02---------------->    
+        <swiper-slide class="sldie_02">
+
+          <img src="./img/background_3.jpg">
+          
+          <a class='a_hover' href="https://www.google.com/search?sca_esv=d5946ba0aedc84b1&sxsrf=ACQVn09ZSeC2Rm8KFccLoW_90plaVqG0hQ:1710686143595&q=dragon+fruit&uds=AMwkrPva-5lwRYgEq6LRYQ0t97t3ix7s0HUJOMMRpkKjStFWNGZ7GaQAxNn7e2qpvoDpMPL6QcCNsRUJzIXlE6E-UTA7g1ki4xh536-CuzEfsUR0bqJiMxFp-5lc6-aDTzIrWeHy8Fgh&udm=2&sa=X&ved=2ahUKEwihzqS_wvuEAxX4jVYBHfPGBCIQtKgLegQIDxAB&biw=1920&bih=919&dpr=1" target="_blank">
+            <div class="slide_02_txt"> Who AM i. </div>
+            <div class="slide_02_txt2">Dragon fruit? </div>
+          </a>
+          <div class="slide_02_pointer">
+            <img src="./img/pointer.png">
+          </div>
+        </swiper-slide>
+    <!--------------슬라이드 03----------------> 
+        <swiper-slide class="slide_03">
+          <div class="works_wrap">
+            <h2> MY WORKS</h2>
+            <div class="img_wrap">
+              <a href="./works_desgin.html">
+                <div class="works">
+                  <div class="dim"></div>
+                  <div class="works_img">
+                    <img src="./img/350x350_1.jpg">
+                  </div>
+                  <div class="works_txtbox">
+                        <div class="works_title"> Design </div>
+                        <p class="works_dit">상세페이지와 프로모션 이미지</p>
+                  </div>
+                </div>
+              </a>
+              <a href="./works_figma.html">
+                <div class="works">
+                  <div class="dim"></div>
+                  <div class="works_img">
+                    <img src="./img/350x350_2.jpg">
+                  </div>
+                  <div class="works_txtbox">
+                    <div class="works_title"> Figma </div>
+                    <p class="works_dit">앱을 위한 UX.UI 디자인</p>
+                  </div>
+                </div>
+              </a>
+              <a href="./works_frontend.html">
+                <div class="works">
+                  <div class="dim"></div>
+                  <div class="works_img">
+                    <img src="./img/350x350_3.jpg">
+                  </div>
+                  <div class="works_txtbox">
+                    <div class="works_title"> Front-End </div>
+                    <p class="works_dit"> 클론코딩 및 개인프로필 </p>
+                  </div>
+                </div>
+              </a>
+              <a href="./works_etc.html">
+                <div class="works">
+                  <div class="dim"></div>
+                  <div class="works_img">
+                    <img src="./img/350x350_4.jpg">
+                  </div>
+                  <div class="works_txtbox">
+                    <div class="works_title"> ETC </div>
+                    <p class="works_dit">개인작업물</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="slide_tile tile2"></div>
+          <div class="slide_03bg"></div>
+        </swiper-slide>
+    <!--------------슬라이드 04----------------> 
+        <swiper-slide class="slide_04">
+          <div class="left">
+            <div class="left_wrap">
+              <img id="left_logo" src="./img/freewill.png">
+              <img id='left_img' src="./img/350x350__1.jpg">
+              <img id='left_img' src="./img/350x350__2.jpg">
+              <img id='left_img' src="./img/350x350__4.jpg">
+              <img id='left_img' src="./img/350x350__3.jpg">
+            </div>
+          </div>
+          <div class="right">
+            <div class="right_title">
+              <h1> RECREATE <p class=txt_blur> MYSELF. </p> </h1>
+              <h1> THE POWER OF SELF <p class=txt_blur> CONTROL.</p></h1>
+            </div>
+            <p> MY WILL. FREE WILL</p>
+            <div class="right_txt"> 3년 전, 퇴근 후 집에 돌아가려는 버스정류장 맞은편에서 본
+              네글자 자유의지.<br> 버스가 오기 까지 벽에 무심하게 적혀 있는
+              붉은 글씨의 자유의지를 버스가 오기 까지 매일 하염없이 지켜보았다.<br>
+              그래서 인지 모르겠지만 지금까지 그 네글자가 머리 속에
+              남아서 나를 괴롭힌다.
+              나의 자유의지는 무엇인가. <br>어디서 부터 어디까지인지.
+              자유의지는 존재하는지. <br>
+              <br>
+              <!-- <div style="font-size: 10pt;" >+ 용띠, + 용과 ++김마리 +++이인혜 나</div> -->
+            </div>
+          </div>
+        </swiper-slide>
+  <!--------------컨텐트---------------->
+        <swiper-slide class="contact_slide">
+          <div class="contact_bg">
+            <img id="contact_img" src="./img/Dragonfruit-White2.jpg">
+          </div>
+          <div class="contact">
+            <h2> CONTACT </h2>
+            <div class="contact_txt">
+                <p> + LEE IN HYE 이 인혜 + marie_rhang@naver.com + 010 -9905 -5917 ++ :</p>
+              
+            </div>
+            <div class="top">
+                <a href="./index.html"> TOP </a>
+            </div>
+          </div>
+        </swiper-slide>
+        <div class="swiper-pagination-bullet"></div>
+    </swiper-container>
+
+  <!------------- 스와이퍼  --------------->
+    
+  
+  <script defer src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
+  <script>
+
+    
+  </script>
+</body>
+</html>

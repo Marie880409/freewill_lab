@@ -1,0 +1,73 @@
+.figma_wrap {
+    position: relative;
+    display: flex;
+    flex-flow: row wrap;
+    width: 1600px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+
+.figma_all {
+    display: flex;
+    flex-flow: row wrap;
+    position: relative;
+    width: 1600px;
+    height: 2800px;
+    justify-content: center;
+    align-items: center;
+    /* background: yellow; */
+}
+    .figma_main {
+        position: relative;
+        display: flex;
+        flex-flow: row nowrap;
+        width: 1500px;
+        height: 1200px;
+        justify-content: center;
+        align-items: center;
+        background: white;
+        border: 1px solid black;
+        top:50px;
+        gap: 20px;
+    }
+        .figma_txt {
+            position: absolute;
+            width: 100%;
+            height: 100px;
+            display: flex;
+            bottom:80px;
+            justify-content: center;
+            text-align: center;
+            align-items: center;
+            flex-flow: row wrap;
+            /* background: yellow; */
+        }
+            .figma_txt > h2 {
+                display: flex;
+                width: 100%;
+                height: 50px;
+                font-size: 18pt;
+                font-family: "Kanit", sans-serif;
+                justify-content: center;
+                text-align: center;
+                align-items: center;
+            }
+
+    .figma_img {
+        position: relative;
+        display: flex;
+        width: 1354px;
+        height: 1352px;
+        bottom: 50px;;
+        align-items: center;
+        
+    }
+    .figma_line {
+        position: relative;
+        display: flex;
+        width: 1500px;
+        height: 1px;
+        background: black;
+        margin: 0 auto;
+    }

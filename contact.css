@@ -1,0 +1,77 @@
+.contact_wrap {
+    position: relative;
+    display: flex;
+    flex-flow: row wrap;
+    width: 1000px;
+    height: 1100px;
+    padding: 0px;
+    margin: 0 auto;
+    top:400px;
+    justify-content: center;
+    /* background: yellow; */
+    
+}
+     .contact_wrap > h2 {
+        position: relative;
+        display: flex;
+        width: 1000px;
+        height: 50px;
+        font-family: "Kanit", sans-serif;
+        font-size: 30pt;
+        color: rgb(0, 0, 0);
+        line-height: 50px;
+        justify-content: center;
+        
+     }
+
+     .dragon {
+        position: relative;
+        display: flex;
+        width: 1000px;
+        height: 450px;
+        bottom:50px;
+        justify-content: center;
+        /* background: yellow; */
+        
+     }
+        .smily {
+            position: absolute;
+            width: 90px;
+            height: 90px;
+            line-height: 90px;
+            top:30px;
+            left:550px;
+            border-radius: 100%;
+            text-align: center;
+            color:#fff;
+            font-family: "Kanit", sans-serif;
+            font-size: 18pt;
+            justify-content: center;
+            background: #e4002b;
+        }
+            
+    .contact_txt {
+        position: relative;
+        display: flex;
+        flex-flow: row nowrap;
+        width: 800px;
+        height: 80px;
+        border: 1px solid black;
+        margin: 0.2px;
+        font-size: 12pt;
+    }
+        .contact_name {
+            margin: 10px;
+            font-weight: bold;
+        }
+        .contact_wrap > p {
+            position: relative;
+            display: flex;
+            width: 800px;
+            height: 20px;
+            margin: 0px;
+            padding: 0px;
+            font-weight: bold;
+            justify-content: center;
+            color: palevioletred;
+        }

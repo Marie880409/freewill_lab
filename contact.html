@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ㅈㅇㅇㅈ</title>
+
+    
+    <style>
+        html,body {
+         position: relative;
+         height: 100%;
+         margin: 0;
+         padding: 0;
+         box-sizing: border-box;
+         font-size: 10pt;
+         text-decoration: none;
+         font-family: "Noto Sans KR", sans-serif;
+     }
+ 
+         ul li {
+             list-style: none;
+         }
+         a {
+             text-decoration: none;
+         }
+         
+         
+ 
+     
+       </style>
+ 
+       
+ 
+     <!-------noto 폰트 --------->
+     <link href="https://fonts.cdnfonts.com/css/verdana" rel="stylesheet">
+                
+     
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap" rel="stylesheet">
+ 
+ 
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Noto+Sans+KR:wght@100..900&display=swap" rel="stylesheet">
+ 
+     <!------- 제이쿼리 --------->
+     
+     <script src="https://code.jquery.com/jquery-3.7.1.slim.min.js" integrity="sha256-kmHvs0B+OpCW5GVHUNjv9rOmY0IvSIRcf7zGUDTDQM8=" crossorigin="anonymous"></script>
+     <script src="https://code.jquery.com/jquery-3.7.1.slim.js" integrity="sha256-UgvvN8vBkgO0luPSUl2s8TIlOSYRoGFAX4jlCIm9Adc=" crossorigin="anonymous"></script>
+     <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+     <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+     
+     
+ 
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+     <link rel="stylesheet" href="./index.css"></style>
+     <link rel="stylesheet" href="./me.css"></style>
+     <link rel="stylesheet" href="contact.css"></style>
+</head>
+<body>
+    <!--------------상단메뉴---------------->
+  <div class="top_header_wrap"> <a name="top"></a>
+    <ul class="top_header_inner">
+        <a href="./index.html"> <li>MAIN</li> </a>
+        <a href="./me.html"><li class="me_hover"> M, E
+          <li> <div class="me_line">&nbsp;</div> </li>
+        </li>
+        </a>
+        <a href="./works.html">
+          <li> WORKS </li>
+        </a>
+        <a href="./contact.html">
+          <li> CONTACT </li>
+        </a>
+    </ul>
+  </div>
+  <!--------------상단이미지---------------->
+  <div class="main">
+    <div class="main_box">
+        <img id="main_box_01" src="./img/92x92_1.jpg">  
+        <img id="main_box_02" src="./img/92x92_2.jpg">
+    </div>
+    <div class="main_box2">
+      <img src="./img/92x92_3.jpg">  
+    </div>
+    <div class="main_txt">
+        <p> FREE WILL </p>
+        <p> 자유의지 </p>
+    </div>
+  </div>
+  <div class="main main_02">
+    <div class="main_txt main_txt_02">
+        <p class="title_txt"> CONTACT </p>
+    </div>
+  </div>
+  <!----------------메인프로필----------------->
+  <div class="contact_wrap">
+    <h2>  +CONTACT+ </h2>
+    <div class="dragon">
+      <!-- <div class="smily"> yay </div> -->
+      <img src="./img/Dragonfruit-White2.jpg" width="500px" height="500px">
+    </div>
+    <div class="contact_txt">
+      <img src="./img/free-icon-christmas-stars-61191.png" width="30px" height="30px">
+      <div class="contact_name">E-MAIL</div> <p>marie_rhang@naver.com</p>
+    </div>
+    <div class="contact_txt">
+      <img src="./img/free-icon-christmas-stars-61191.png" width="30px" height="30px">
+      <div class="contact_name">PHONE</div> <p style="text-decoration: underline;">010-9905-5917</p>
+    </div>
+    <div class="contact_txt">
+      <img src="./img/free-icon-christmas-stars-61191.png" width="30px" height="30px">
+      <div class="contact_name">연락가능한 시간 </div> <p style="text-decoration: underline;">오전 11시~6시</p>
+    </div>
+    <p> 감사합니다 :) </p>
+
+
+  </div>
+  
+ <script>
+  
+  $(document).ready(function(){
+    $("#main_box_01").animate({
+      top:"50px"
+    },1000,"swing");
+  });
+$(document).ready(function(){
+  $(".title_txt").animate({
+    left:"1200px"
+  },2000,"swing");
+});
+
+
+
+ </script>
+</body>
+</html>
